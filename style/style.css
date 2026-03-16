@@ -1,0 +1,300 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/as2.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.headerfont{
+	color: white;
+	margin: 0;
+	font-family: serif;
+	font-size: 100px;
+	text-align: center;
+}
+.logo{
+	position: absolute;
+	left: 20px;
+	height: 400px;
+}
+.dropdown{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}
+.dropbtn{
+	background: #F4E2C6;
+	padding: 12px 20px;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	font-size: 16px;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background: white;
+	min-width: 120px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	overflow: hidden;
+}
+.dropdown-content a{
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+.dropdown-content a:hover{
+	background: #F4E2C6;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.home{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.home-btn{
+	background: #F4E2C6;
+	padding: 12px 20px;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+}
+.topbox{
+	padding: 20px; 
+	border: none; 
+	margin: 20px; 
+	background-color: #F4E2C6; 
+	font-size: 20px; 
+	border-radius: 25px; 
+	font-family: serif;"
+}
+.sizemar{
+	margin: 0 100px 0;
+}
+.sizep{
+	margin: 40px 100px 0; 
+	font-size: 20px; 
+	font-family: sans-serif;"
+}
+.sizeh1{
+	margin: 40px 100px 0; 
+	font-size: 80px; 
+	font-family: sans-serif;"
+}
+.sizeh2{
+	font-family: sans-serif; 
+	color: grey; 
+	margin: 30px 100px 0;"
+}
+
+
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.desc.left {
+  flex-direction: row;
+  background-color: #F4E2C6;
+}
+.desc.right {
+  flex-direction: row-reverse;
+  background-color: #C9A227;
+}
+/* Image box styling */
+.imagebox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagebox img.cimage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.cimage-text h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #4B2E1E;
+}
+/* Paragraph styling */
+.desc p {
+  flex: 2;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #4B2E1E;
+}
+
+
+.asp{
+	margin: 0px 100px 0px;
+	text-align: justify;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+
+.header.arch{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/5.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.Arch{
+	position: absolute;
+	left: 110px;
+	bottom: 50px;
+}
+.arbtn{
+	background: #F4E2C6;
+	padding: 12px 20px;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+}
+
+
+.header.sunsea{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/ss1.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+
+
+.header.hw{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.header.hw1{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw1.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.header.hw2{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw2.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+
+
+.header.togo{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg1.avif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+
+.btn{
+    display: block;
+    background-color: white;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid black;
+}
+.header.togo1{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg2.avif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.header.togo2{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg3.avif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.header.togo3{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg5.avif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}

@@ -2,12 +2,20 @@ body{
 	margin: 0;
 	padding: 0;
 }
-.header{
+.header.main{
 		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/as2.jpeg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding: 25px;
+}
+.header{
+	background-color: black;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -159,18 +167,6 @@ body{
 }
 
 
-.header.arch{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/5.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
 .Arch{
 	position: absolute;
 	left: 110px;
@@ -186,70 +182,7 @@ body{
 }
 
 
-.header.sunsea{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/ss1.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
 
-
-.header.hw{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw.jpeg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
-.header.hw1{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw1.jpeg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
-.header.hw2{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hw2.jpeg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
-
-
-.header.togo{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg1.avif");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
 
 .btn{
     display: block;
@@ -261,40 +194,4 @@ body{
     font-weight: bold;
     margin-top: 10px;
     border: solid black;
-}
-.header.togo1{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg2.avif");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
-.header.togo2{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg3.avif");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
-}
-.header.togo3{
-		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/tg5.avif");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 400px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-    padding: 25px;
 }
